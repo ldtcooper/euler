@@ -1,4 +1,4 @@
-def largest_prime_factor(n)
+def prime_factors(n)
   square = Math.sqrt(n).to_i
   i = 3
   prime_factors = []
@@ -13,4 +13,4 @@ def largest_prime_factor(n)
   prime_factors
 end
 
-p largest_prime_factor(600851475143).last
+p prime_factors(600851475143).last

@@ -3,3 +3,4 @@ To keep my programming sharp, I've been doing some project Euler problems. This 
 
 - [Problem One](/p1/p1_solution.md)
 - [Problem Two](p2/p2_solution.md)
+- [Problem Three](p3/p3_solution.md)
