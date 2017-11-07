@@ -1,9 +1,14 @@
-require_relative 'prime_factorization.rb'
-
 def p5
-  big_prod = (2..20).reduce(:*)
-  big_prod_factors = prime_factorization(big_prod)
-  big_prod_factors.reduce(:*)
+  current_num = 2520 # test case result
+  until divisible?(current_num)
+    current_num += 20
+  end
+  current_num
+end
+
+def divisible?(num)
+  nums = [20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+  nums.all? { |el| num % el == 0 }
 end
 
 p p5
