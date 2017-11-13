@@ -1,5 +1,7 @@
 ## Problem Six
 
+### Brute Force Solution
+
 ```javascript
   function problemSix(n) {
     let sumOfSquares = 0;
@@ -13,3 +15,10 @@
 
   console.log(problemSix(100));
 ```
+
+Not too much to day about this solution. It looks through each number from 1 to 100 and:
+
+  1. Adds them up
+  2. Adds up their square roots
+
+The sum is then squared, and the sum of the squares is subtracted from it.
