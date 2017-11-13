@@ -5,4 +5,5 @@ To keep my programming sharp, I've been doing some project Euler problems. This 
 - [Problem Two](p2/p2_solution.md)
 - [Problem Three](p3/p3_solution.md)
 - [Problem Four](p4/p4_solution.md)
-- [Problem Five](p4/p5_solution.md)
+- [Problem Five](p5/p5_solution.md)
+- [Problem Six](p6/p6_solution.md)
